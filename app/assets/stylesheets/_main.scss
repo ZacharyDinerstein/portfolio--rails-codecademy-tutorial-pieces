@@ -7,15 +7,12 @@
 
 html {
 	font-size: 10px;
+	@media (max-width: 768px) {
+	    font-size: 9px;
+	  }
 }
 
 body {
 	font-size: 1.6rem;
 	color: $black;
 }
-
-/*FOOTER*/
-footer {
-	margin-bottom: 3rem;
-}
-

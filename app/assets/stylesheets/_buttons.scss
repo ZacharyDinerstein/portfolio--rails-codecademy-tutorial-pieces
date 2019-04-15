@@ -1,0 +1,28 @@
+@import "variables";
+
+.btn-sm {
+	font-size: 1.2rem;
+	border-radius: .28rem;
+	padding: 0.35rem .7rem;
+}
+
+.card__btn--open, .btn-logout {
+	background-color: $brand-teal;
+	border-color: $brand-teal;
+	color: $purple-font;
+	font-weight: 700;
+}
+
+.navbar-link.btn-logout {
+	color: $purple-font;
+}
+
+.card__btn--open {
+	color: $white;
+}
+
+.navbar{
+	.btn {
+		font-size: $navbar-text-size;
+	}
+}
