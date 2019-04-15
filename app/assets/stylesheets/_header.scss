@@ -4,10 +4,12 @@
 
 header {
 	border-top: solid .4rem $brand-teal;
-	padding: 15rem;
+	padding: 18rem 15rem;
 	background: $background-gradient;
 	color: $white;
 	text-align: center;
+	margin-bottom: -5rem;
+
 	.welcome {
 		.welcome__main-message {
 			font-size: 5rem;
