@@ -1,3 +1,26 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+/*FOOTER*/
+footer {
+	margin-bottom: 3rem;
+}
+
+
+/*PORTFOLIO PAGE*/
+.portfolio {
+	.portfolio__thumbnail-container {
+		img {
+			width: 100%;
+		}
+	}
+}
