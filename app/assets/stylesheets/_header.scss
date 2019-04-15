@@ -8,4 +8,14 @@ header {
 	background: $background-gradient;
 	color: $white;
 	text-align: center;
+	.welcome {
+		.welcome__main-message {
+			font-size: 5rem;
+		}
+		.welcome__sub-message {
+			font-size: 2.5rem;
+			font-weight: 100;
+			letter-spacing: .05rem;
+		}
+	}
 }
