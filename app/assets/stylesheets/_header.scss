@@ -1,0 +1,11 @@
+@import "variables";
+
+/* HEADER */
+
+header {
+	border-top: solid .4rem $brand-teal;
+	padding: 15rem;
+	background: $background-gradient;
+	color: $white;
+	text-align: center;
+}
