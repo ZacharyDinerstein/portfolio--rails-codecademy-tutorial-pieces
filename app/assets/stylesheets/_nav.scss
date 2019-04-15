@@ -1,0 +1,49 @@
+@import "variables";
+
+/* NAVBAR */
+.navbar {
+	color: $white;
+	padding: 1rem 14rem;
+	border-top: solid .4rem $brand-teal;
+	box-shadow: $light-box-shadow;
+	font-family: $title-font;
+	background: $background-gradient;
+	@media (max-width: 992px) {
+		padding: 2rem 2rem;
+	}
+	.navbar-brand {
+		font-size: $navbar-brand-text-size;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-right: 5rem;
+		font-family: $title-font;
+	}
+	.navbar-nav {
+		.nav-link {
+			color: $white;
+		}
+		.nav-link:hover {
+			color: $white-hover;
+		}
+		> li {
+			> .dropdown-menu { 
+				background-color: $dark-navbar; 
+			}
+		}
+		.dropdown-menu {
+			font-size: $navbar-text-size;
+		}
+		.dropdown-item:hover {
+			background-color: $dark-navbar-hover;
+		}
+	}
+	a {
+		color: $white;
+	}
+	ul {
+		font-size: $navbar-text-size;
+		li {
+			margin-right: 1.6rem;
+		}
+	}
+}

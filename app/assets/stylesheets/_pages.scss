@@ -2,12 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "variables";
+
+
 html {
 	font-size: 10px;
 }
 
 body {
 	font-size: 1.6rem;
+	color: $black;
+}
+
+/*HEADER*/
+header {
+	margin-bottom: 3rem;
 }
 
 /*FOOTER*/
@@ -19,6 +28,13 @@ footer {
 /*PORTFOLIO PAGE*/
 .portfolio {
 	.portfolio__thumbnail-container {
+		font-size: 1em;
+		overflow: hidden;
+		padding: 0;
+		border: none;
+		/*border-radius: .28571429rem;*/
+		box-shadow: 1.5px 1.5px 7px $light-box-shadow;
+		margin-bottom: 3rem;
 		img {
 			width: 100%;
 		}
