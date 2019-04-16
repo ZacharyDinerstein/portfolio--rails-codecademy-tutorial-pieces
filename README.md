@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version = 2.5.1
 
-Things you may want to cover:
+* Database = PostGres
 
-* Ruby version
+* Deployment instructions To run the application locally
 
-* System dependencies
+1. Clone the repo
+2. Open Terminal
+3. CD into the root of the project
+4. Run the command 'rails s'
+5. Open the URL 'http://localhost:3000/'
 
-* Configuration
+* Site URL: https://sleepy-depths-39467.herokuapp.com/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Github: https://github.com/ZacharyDinerstein/MovieApp
