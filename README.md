@@ -14,4 +14,4 @@
 
 * Site URL: https://sleepy-depths-39467.herokuapp.com/
 
-* Github: https://github.com/ZacharyDinerstein/MovieApp 
+* Github: https://github.com/ZacharyDinerstein/portfolio--rails-codecademy-tutorial-pieces
